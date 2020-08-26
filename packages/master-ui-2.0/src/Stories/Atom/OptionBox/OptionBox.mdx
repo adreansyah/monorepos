@@ -1,0 +1,27 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+
+# OptionBox
+```import { OptionBox } from "@elevenia/master-ui/Components/Atom";```
+
+This OptionBox are built with react-select, so you can use default props from react-select. see complete documentation <a href={`https://react-select.com/home`} target="_blank">here</a> <br/>
+some common usage sample are put at basic canvas knobs, all by means to check it out.
+
+<Preview>
+  <Story id="atom-option-box--basic" />
+</Preview>
+
+## Menu Portal
+
+OptionBox exposes a `menuPortalTarget` prop, that let you portaling the menu-dopdown to a dom node of your choosing (as your need).
+
+<Preview>
+  <Story id="atom-option-box--menu-portal"/>
+</Preview>
+
+## Multi Selected
+
+OptionBox support multiple selected by using props `isMulti`
+
+<Preview>
+  <Story id="atom-option-box--multi-selected"/>
+</Preview>

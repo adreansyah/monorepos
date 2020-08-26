@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>21B9233B-423C-47F7-9C9A-92A7706DED2E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---40px" transform="translate(-632.000000, -465.000000)">
+            <g id="Icon/Special/40px/Active/ic_dekorasi" transform="translate(625.000000, 458.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="22" cy="18" r="10"></circle>
+                    <rect id="Rectangle" stroke="#E65015" stroke-width="2" stroke-linecap="round" x="8.01" y="12" width="16.07" height="20" rx="4"></rect>
+                    <path d="M8.34,27.88 L12.14,24.07 C12.4229071,23.810703 12.8570929,23.810703 13.14,24.07 L17,27.88" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M15.33,26.24 L18.43,23.14 C18.7129071,22.880703 19.1470929,22.880703 19.43,23.14 L23.69,27.41" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M8.34,28 L23.72,28" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <circle id="Oval" stroke="#E65015" stroke-width="2" stroke-linecap="round" cx="18.5" cy="17.3" r="1.87"></circle>
+                    <path d="M14.73,8 L17.35,8" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>08F0CE03-96F2-48A3-BAE8-3881707F5685</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---40px" transform="translate(-72.000000, -239.000000)">
+            <g id="Icon/Special/40px/Default/ic_gadget" transform="translate(65.000000, 232.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="22" cy="18" r="10"></circle>
+                    <circle id="Oval" fill="#434755" fill-rule="nonzero" cx="15.5" cy="12" r="1.17"></circle>
+                    <rect id="Rectangle" stroke="#434755" stroke-width="2" stroke-linecap="round" x="8" y="8" width="15" height="24" rx="4"></rect>
+                    <path d="M13.75,28 L17.25,28" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

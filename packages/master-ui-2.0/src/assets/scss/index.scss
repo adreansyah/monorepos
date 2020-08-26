@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'global/index';
+@import 'atom/index';
+@import 'molecules/index';
+@import 'utility/index';
+
+body {
+  font-family: $font-family-base!important;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $black-70;
+}

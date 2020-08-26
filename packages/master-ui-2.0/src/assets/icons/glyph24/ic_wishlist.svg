@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_wishlist</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_wishlist" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12.52,6.36 C12.405882,6.52329258 12.2192169,6.6205719 12.02,6.6205719 C11.8207831,6.6205719 11.634118,6.52329258 11.52,6.36 C10.4841296,4.88810552 8.79984033,4.00869785 7,4 C5.665671,3.97247922 4.37784863,4.49042113 3.43413488,5.43413488 C2.49042113,6.37784863 1.97247922,7.665671 2,9 C2,12.61 5.58,15.47 10.66,20.45 C11.4077168,21.1713434 12.5922832,21.1713434 13.34,20.45 C18.42,15.47 22,12.61 22,9 C22.0246753,7.6665061 21.5058187,6.3803493 20.5627347,5.43726531 C19.6196507,4.49418131 18.3334939,3.97532467 17,4 C15.2139041,4.01991279 13.5465557,4.89824811 12.52,6.36 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

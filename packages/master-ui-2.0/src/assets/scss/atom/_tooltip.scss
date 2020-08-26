@@ -1,0 +1,192 @@
+[data-tooltip] {
+	display: inline-block;
+  &:before, &:after {
+		position: absolute;
+    z-index: 1000000;
+    visibility: hidden;
+    opacity: 0;
+		pointer-events: none;
+    -webkit-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+  }
+  &:hover {
+    &:before, &:after {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  &:before {
+    content: '';
+		position: absolute;
+    width:10px;
+    height: 10px;
+		border: 1px solid $black-30;
+		background: $white;
+    -webkit-transform: rotate(225deg) !important;
+    -moz-transform: rotate(225deg) !important;
+    transform: rotate(225deg) !important;
+  }
+  &:after {
+		z-index: 1080;
+		content: attr(data-tooltip);
+		padding: 16px;
+    white-space: nowrap;
+    box-shadow: $shadow-hover;
+    border-radius: 4px;
+		background: $white;
+		color: $black-50;
+    font-size: 12px;
+  }
+}
+[data-tooltip=''] {
+  &:before, &:after {
+    display: none !important;
+  }
+}
+.tooltip--top {
+  &:before {
+    bottom: 100%;
+		left: calc(50% - 6px);
+    margin-bottom: 10px;
+    border-right: none;
+    border-bottom: none;
+  }
+  &:after {
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 8px;
+  }
+  &:hover:before, &:focus:before {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  &:hover:after, &:focus:after {
+    -webkit-transform: translateX(-50%) translateY(-8px);
+    -moz-transform: translateX(-50%) translateY(-8px);
+    transform: translateX(-50%) translateY(-8px);
+  }
+}
+.tooltip--bottom {
+  &:before {
+		top: 100%;
+		left: calc(50% - 6px);
+    margin-top: 10px;
+    border-left: none;
+    border-top: none;
+    -webkit-transform: rotate(225deg) !important;
+    -moz-transform: rotate(225deg) !important;
+    transform: rotate(225deg) !important;
+  }
+  &:after {
+    top: 100%;
+    left: 50%;
+    margin-top: 8px;
+  }
+  &:hover:before, &:focus:before {
+    -webkit-transform: translateY(8px);
+    -moz-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  &:hover:after, &:focus:after {
+    -webkit-transform: translateX(-50%) translateY(8px);
+    -moz-transform: translateX(-50%) translateY(8px);
+    transform: translateX(-50%) translateY(8px);
+  }
+}
+.tooltip--right {
+  &:before {
+    margin-left: 10px;
+    margin-bottom: -4px;
+    border-bottom: none;
+    border-left: none;
+  }
+  &:after {
+    margin-left: 8px;
+    margin-bottom: -20px;
+  }
+  &:before, &:after {
+    left: 100%;
+    bottom: 50%;
+  }
+  &:hover:before, &:focus:before, &:hover:after, &:focus:after {
+    -webkit-transform: translateX(8px);
+    -moz-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+}
+
+.tooltip--left {
+  &:before {
+    margin-right: 10px;
+    margin-bottom: -4px;
+    border-right: none;
+    border-top: none;
+  }
+  &:after {
+    margin-right: 8px;
+    margin-bottom: -20px;
+  }
+  &:before, &:after {
+    right: 100%;
+    bottom: 50%;
+  }
+  &:hover:before, &:focus:before, &:hover:after, &:focus:after {
+    -webkit-transform: translateX(-8px);
+    -moz-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+
+.tooltip--lg:after {
+  width: auto;
+  white-space: nowrap;
+  padding-left: 1rem;
+	padding-right: 1rem;
+	
+  line-height: 1.4em;
+  font-size: 1.5rem;
+}
+
+.tooltip--dark {
+  &:after {
+    background-color: $black-60;
+    color: white;
+  }
+  &.tooltip--top:before {
+    background-color: $black-60;
+    border-top-color: $black-60;
+    border-left-color: $black-60;
+  }
+  &.tooltip--bottom{
+    &:before {
+    background-color: $black-60;
+    border-bottom-color: $black-60;
+    border-right-color: $black-60;
+    }
+    &:after{
+      margin-top: 6px;
+    }
+  }
+  &.tooltip--left{
+    &:before {
+      background-color: $black-60;
+      border-bottom-color: $black-60;
+      border-left-color: $black-60;
+    }
+    &::after {
+      margin-right: 6px;
+    }
+  }
+  &.tooltip--right{
+    :before {
+      background-color: $black-60;
+      border-top-color: $black-60;
+      border-right-color: $black-60;
+    }
+    &:after{
+      margin-left: 6px;
+    }
+  }
+}

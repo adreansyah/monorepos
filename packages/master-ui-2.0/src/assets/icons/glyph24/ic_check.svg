@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M8.71,19 C8.33254687,18.9963 7.97233778,18.8414101 7.71,18.57 L2.3,13.15 C1.9602232,12.7532397 1.98306773,12.1618058 2.35243678,11.7924368 C2.72180583,11.4230677 3.31323972,11.4002232 3.71,11.74 L8.71,16.74 L20.29,5.15 C20.6867603,4.8102232 21.2781942,4.83306773 21.6475632,5.20243678 C22.0169323,5.57180583 22.0397768,6.16323972 21.7,6.56 L9.7,18.56 C9.44176126,18.8326509 9.08542666,18.9910219 8.71,19 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

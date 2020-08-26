@@ -1,0 +1,62 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Button } from "../../../Components/Atom";
+
+# Button
+```import { Button } from "@elevenia/master-ui/Components/Atom";```
+
+Button component based on `button` element.
+
+<Preview>
+  <Story id="atom-button--basic" />
+</Preview>
+
+## Stories
+### Button with Icon
+
+Button component is a flexbox component. When default condition, **Icon** component inside the button takes position on left.
+
+<Preview>
+  <Story id="atom-button--with-icon" />
+</Preview>
+
+## Utils Props
+
+The props of **Utils** can be applied:
+[Spacing](/?path=/docs/utils-spacing--preview)
+
+## Component Props
+<Props of={Button} />
+
+### variant
+
+There are four button variants. Use `variant` prop to assign button variant.<br />
+Default value is "primary".
+
+<Preview>
+  <Story id="atom-button--variant" />
+</Preview>
+
+### size
+
+There are three button sizes. Use `size` prop to assign button size.<br />
+Default value is "medium".
+
+<Preview>
+  <Story id="atom-button--size" />
+</Preview>
+
+### disabled
+
+use `disabled` prop to disable the button.
+
+<Preview>
+  <Story id="atom-button--disabled" />
+</Preview>
+
+### spinner
+
+`spinner` prop controls the appearance of the loading spinner. When it's **true**, the spinner will show, and vice versa.
+
+<Preview>
+  <Story id="atom-button--spinner" />
+</Preview>

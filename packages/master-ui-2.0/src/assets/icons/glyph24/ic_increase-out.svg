@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_increase-out</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_increase-out" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M19,19 L5,19 L5,5 L11,5 C11.5522847,5 12,4.55228475 12,4 L12,4 C12,3.44771525 11.5522847,3 11,3 L5,3 C3.8954305,3 3,3.8954305 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L19,21 C20.1045695,21 21,20.1045695 21,19 L21,13 C21,12.4477153 20.5522847,12 20,12 L20,12 C19.4477153,12 19,12.4477153 19,13 L19,19 Z M14,4 L14,4 C14,4.55228475 14.4477153,5 15,5 L17.59,5 L8.46,14.13 C8.07885712,14.5188435 8.07885712,15.1411565 8.46,15.53 L8.46,15.53 C8.84884351,15.9111429 9.47115649,15.9111429 9.86,15.53 L19,6.41 L19,9 C19,9.55228475 19.4477153,10 20,10 L20,10 C20.5522847,10 21,9.55228475 21,9 L21,3.5 C21,3.22385763 20.7761424,3 20.5,3 L15,3 C14.4477153,3 14,3.44771525 14,4 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

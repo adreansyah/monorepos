@@ -1,0 +1,57 @@
+import { Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Header} from '../../../../Components/Organisms/Mobile';
+
+# Header
+
+`import { Header, HeaderLeft, HeaderRight, HeaderBody } from "@elevenia/master-ui/Components/Organisms/Mobile/Header";`
+
+
+`Header` is a base for header in mobile. <br/>
+Consists of `HeaderLeft` for container left side, `HeaderRight` for container right side, `HeaderBody` for container center side component in header.<br/>
+
+## Stories
+<br/>
+
+### Header With Search and 2 Icons Right
+
+`HeaderBody` as container of [SearchBar](/?path=/docs/molecules-search-bar--basic) and `HeaderRight` as container of 2 [Icon](?path=/docs/atom-icon--glyph) right.
+
+<Preview>
+  <Story id="organisms-mobile-header--search-2-icon-right"/>
+</Preview>
+
+### Header With Search and Right Action
+
+`HeaderBody` as container of [SearchBar](/?path=/docs/molecules-search-bar--basic) and `HeaderRight` as container of  action [ButtonLink](/?path=/docs/atom-buttonlink--basic).
+
+<Preview>
+  <Story id="organisms-mobile-header--search-right-action"/>
+</Preview>
+
+### Header With Icon Left, Title, and Right Action
+
+`HeaderLeft` as container of [ButtonLink](/?path=/docs/atom-buttonlink--basic) with [Icon](?path=/docs/atom-icon--glyph), `HeaderBody` as container of Title, `HeaderLeft` as container of  action [ButtonLink](/?path=/docs/atom-buttonlink--basic).
+
+<Preview>
+  <Story id="organisms-mobile-header--icon-left-title-right-action"/>
+</Preview>
+
+### Header With Icon Left, Title, and 2 Icon Right
+
+`HeaderLeft` as container of [ButtonLink](/?path=/docs/atom-buttonlink--basic) with [Icon](?path=/docs/atom-icon--glyph), `HeaderBody` as container of Title, `HeaderLeft` as container of 2 [Icon](?path=/docs/atom-icon--glyph) right.
+
+<Preview>
+  <Story id="organisms-mobile-header--icon-left-title-2-icon-right"/>
+</Preview>
+
+### Header With Left Action and Search
+
+`HeaderLeft` as container of [ButtonLink](/?path=/docs/atom-buttonlink--basic) with [Icon](?path=/docs/atom-icon--glyph) and HeaderBody` as container of [SearchBar](/?path=/docs/molecules-search-bar--basic).
+
+<Preview>
+  <Story id="organisms-mobile-header--left-action-search"/>
+</Preview>
+
+## Props
+<Props of={Header}/>
+

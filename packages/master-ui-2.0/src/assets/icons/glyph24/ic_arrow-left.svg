@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_arrow-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Glyph/24px/ic_arrow-left">
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M20,11 L6.36,11 L12.1,5.27 C12.4877236,4.87996255 12.4877236,4.25003745 12.1,3.86 C11.9122334,3.67068735 11.6566375,3.56420168 11.39,3.56420168 C11.1233625,3.56420168 10.8677666,3.67068735 10.68,3.86 L3.34,11.2 C2.90168569,11.64717 2.90168569,12.36283 3.34,12.81 L10.68,20.15 C10.8677666,20.3393127 11.1233625,20.4457983 11.39,20.4457983 C11.6566375,20.4457983 11.9122334,20.3393127 12.1,20.15 C12.4877236,19.7599625 12.4877236,19.1300375 12.1,18.74 L6.37,13 L20,13 C20.5522847,13 21,12.5522847 21,12 C21,11.4477153 20.5522847,11 20,11 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

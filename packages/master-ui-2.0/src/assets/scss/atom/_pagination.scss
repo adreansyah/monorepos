@@ -1,0 +1,29 @@
+.pagination {
+  & > .btn {
+    &:hover {
+      background-color: #EFF3F6;
+
+      #Glyph path {
+        fill: #FF7D1D;
+      }
+    }
+  }
+
+  &__item {
+    color: #9C9DA6;
+    font-weight: 400 !important;
+    min-height: 40px;
+    min-width: 40px;
+    padding: 12px;
+    margin: 0px !important;
+
+    &:hover {
+      color: #FF7D1D;
+    }
+
+    &--active {
+      background-color: #EFF3F6;
+      color: #151823;
+    }
+  }
+}

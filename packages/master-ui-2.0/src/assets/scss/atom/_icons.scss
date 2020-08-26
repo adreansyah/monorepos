@@ -1,0 +1,701 @@
+$icons: (
+  tiket: (width: 23px, height: 24px, svgPath: './icons/special/ic_tiket.svg', svgPathActive: './icons/special-active/ic_tiket.svg'),
+  perlengkapan_bayi: (width: 23px, height: 24px, svgPath: './icons/special/ic_perlengkapan-bayi.svg', svgPathActive: './icons/special-active/ic_perlengkapan-bayi.svg'),
+  otomotif: (width: 24px, height: 23px, svgPath: './icons/special/ic_otomotif.svg', svgPathActive: './icons/special-active/ic_otomotif.svg'),
+  mokado: (width: 23px, height: 23px, svgPath: './icons/special/ic_mokado.svg', svgPathActive: './icons/special-active/ic_mokado.svg'),
+  kosmetik: (width: 23px, height: 24px, svgPath: './icons/special/ic_kosmetik.svg', svgPathActive: './icons/special-active/ic_kosmetik.svg'),
+  kamera: (width: 23px, height: 23px, svgPath: './icons/special/ic_kamera.svg', svgPathActive: './icons/special-active/ic_kamera.svg'),
+  hobi_olahraga: (width: 24px, height: 24px, svgPath: './icons/special/ic_hobi-olahraga.svg', svgPathActive: './icons/special-active/ic_hobi-olahraga.svg'),
+  hiburan: (width: 23px, height: 24px, svgPath: './icons/special/ic_hiburan.svg', svgPathActive: './icons/special-active/ic_hiburan.svg'),
+  gadget: (width: 23px, height: 24px, svgPath: './icons/special/ic_gadget.svg', svgPathActive: './icons/special-active/ic_gadget.svg'),
+  furniture: (width: 24px, height: 23px, svgPath: './icons/special/ic_furniture.svg', svgPathActive: './icons/special-active/ic_furniture.svg'),
+  fashion_wanita: (width: 23px, height: 24px, svgPath: './icons/special/ic_fashion-wanita.svg', svgPathActive: './icons/special-active/ic_fashion-wanita.svg'),
+  fashion_pria: (width: 24px, height: 23px, svgPath: './icons/special/ic_fashion-pria.svg', svgPathActive: './icons/special-active/ic_fashion-pria.svg'),
+  fashion_muslim: (width: 23px, height: 25px, svgPath: './icons/special/ic_fashion-muslim.svg', svgPathActive: './icons/special-active/ic_fashion-muslim.svg'),
+  f_n_b: (width: 23px, height: 23px, svgPath: './icons/special/ic_f&b.svg', svgPathActive: './icons/special-active/ic_f&b.svg'),
+  elektronik: (width: 23px, height: 23px, svgPath: './icons/special/ic_elektronik.svg', svgPathActive: './icons/special-active/ic_elektronik.svg'),
+  dekorasi: (width: 23px, height: 24px, svgPath: './icons/special/ic_dekorasi.svg', svgPathActive: './icons/special-active/ic_dekorasi.svg'),
+);
+
+.i {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  &--small {
+    width: 16px;
+    height: 16px;
+  }
+  &--medium {
+    width: 36px;
+    height: 36px;
+  }
+  &--large {
+    width: 24px;
+    height: 24px;
+  }
+  &:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+      fill: $black-50;
+      background-position: center;
+
+      transition-property: background-image;
+      transition-duration: 0.5s;
+  }
+  &:hover {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+      fill: $black-50;
+      background-position: center;
+    }
+  }
+
+  &__tiket {
+    &:before {
+      $tiket: map-get($icons, tiket);
+      background-image: url(map-get($tiket, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $tiket: map-get($icons, tiket);
+        width: map-get($tiket, width);
+        height: map-get($tiket, height);
+      }
+      &:hover {
+        &:before {
+          $tiket: map-get($icons, tiket);
+          width: map-get($tiket, width);
+          height: map-get($tiket, height);
+          background-image: url(map-get($tiket, svgPathActive));
+        }
+      }
+
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px;
+        width: 26px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_tiket.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px;
+          width: 26px;
+          height: 26px;
+          $tiket: map-get($icons, tiket);
+          background-image: url('./icons/special-active40/ic_tiket.svg');
+        }
+      }
+    }
+  }
+  &__perlengkapan_bayi {
+    &:before {
+      $perlengkapan_bayi: map-get($icons, perlengkapan_bayi);
+      background-image: url(map-get($perlengkapan_bayi, svgPath));
+
+    }
+    &.i--medium {
+      &:before {
+        $perlengkapan_bayi: map-get($icons, perlengkapan_bayi);
+        width: map-get($perlengkapan_bayi, width);
+        height: map-get($perlengkapan_bayi, height);
+        background-image: url(map-get($perlengkapan_bayi, svgPath));
+
+      }
+      &:hover {
+        &:before {
+          $perlengkapan_bayi: map-get($icons, perlengkapan_bayi);
+          width: map-get($perlengkapan_bayi, width);
+          height: map-get($perlengkapan_bayi, height);
+          background-image: url(map-get($perlengkapan_bayi, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 26px;
+        width: 25px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_perlengkapan-bayi.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 26px;
+          width: 25px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_perlengkapan-bayi.svg');
+        }
+      }
+    }
+  }
+  &__otomotif {
+    &:before {
+      $otomotif: map-get($icons, otomotif);
+      background-image: url(map-get($otomotif, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $otomotif: map-get($icons, otomotif);
+        width: map-get($otomotif, width);
+        height: map-get($otomotif, height);
+        background-image: url(map-get($otomotif, svgPath));
+      }
+      &:hover {
+        &:before {
+          $otomotif: map-get($icons, otomotif);
+          width: map-get($otomotif, width);
+          height: map-get($otomotif, height);
+          background-image: url(map-get($otomotif, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px 25px;
+        width: 26px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_otomotif.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px 25px;
+          width: 26px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_otomotif.svg');
+        }
+      }
+    }
+  }
+  &__mokado {
+    &:before {
+      $mokado: map-get($icons, mokado);
+      background-image: url(map-get($mokado, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $mokado: map-get($icons, mokado);
+        width: map-get($mokado, width);
+        height: map-get($mokado, height);
+        background-image: url(map-get($mokado, svgPath));
+      }
+      &:hover {
+        &:before {
+          $mokado: map-get($icons, mokado);
+          width: map-get($mokado, width);
+          height: map-get($mokado, height);
+          background-image: url(map-get($mokado, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_mokado.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px;
+          width: 25px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_mokado.svg');
+        }
+      }
+    }
+  }
+  &__kosmetik {
+    &:before {
+      $kosmetik: map-get($icons, kosmetik);
+      background-image: url(map-get($kosmetik, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $kosmetik: map-get($icons, kosmetik);
+        width: map-get($kosmetik, width);
+        height: map-get($kosmetik, height);
+        background-image: url(map-get($kosmetik, svgPath));
+      }
+      &:hover {
+        &:before {
+          $kosmetik: map-get($icons, kosmetik);
+          width: map-get($kosmetik, width);
+          height: map-get($kosmetik, height);
+          background-image: url(map-get($kosmetik, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 26px;
+        width: 25px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_kosmetik.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 26px;
+          width: 25px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_kosmetik.svg');
+        }
+      }
+    }
+  }
+  &__kamera {
+    &:before {
+      $kamera: map-get($icons, kamera);
+      background-image: url(map-get($kamera, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $kamera: map-get($icons, kamera);
+        width: map-get($kamera, width);
+        height: map-get($kamera, height);
+        background-image: url(map-get($kamera, svgPath));
+      }
+      &:hover {
+        &:before {
+          $kamera: map-get($icons, kamera);
+          width: map-get($kamera, width);
+          height: map-get($kamera, height);
+          background-image: url(map-get($kamera, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px;
+        width: 26px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_kamera.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px;
+          width: 26px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_kamera.svg');
+        }
+      }
+    }
+  }
+  &__hobi_olahraga {
+    &:before {
+      $hobi_olahraga: map-get($icons, hobi_olahraga);
+      background-image: url(map-get($hobi_olahraga, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $hobi_olahraga: map-get($icons, hobi_olahraga);
+        width: map-get($hobi_olahraga, width);
+        height: map-get($hobi_olahraga, height);
+        background-image: url(map-get($hobi_olahraga, svgPath));
+      }
+      &:hover {
+        &:before {
+          $hobi_olahraga: map-get($icons, hobi_olahraga);
+          width: map-get($hobi_olahraga, width);
+          height: map-get($hobi_olahraga, height);
+          background-image: url(map-get($hobi_olahraga, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px;
+        width: 26px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_hobi-olahraga.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px;
+          width: 26px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_hobi-olahraga.svg');
+        }
+      }
+    }
+  }
+  &__hiburan {
+    &:before {
+      $hiburan: map-get($icons, hiburan);
+      background-image: url(map-get($hiburan, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $hiburan: map-get($icons, hiburan);
+        width: map-get($hiburan, width);
+        height: map-get($hiburan, height);
+        background-image: url(map-get($hiburan, svgPath));
+      }
+      &:hover {
+        &:before {
+          $hiburan: map-get($icons, hiburan);
+          width: map-get($hiburan, width);
+          height: map-get($hiburan, height);
+          background-image: url(map-get($hiburan, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 26px;
+        width: 25px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_hiburan.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 26px;
+          width: 25px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_hiburan.svg');
+        }
+      }
+    }
+  }
+  &__gadget {
+    &:before {
+      $gadget: map-get($icons, gadget);
+      background-image: url(map-get($gadget, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $gadget: map-get($icons, gadget);
+        width: map-get($gadget, width);
+        height: map-get($gadget, height);
+        background-image: url(map-get($gadget, svgPath));
+      }
+      &:hover {
+        &:before {
+          $gadget: map-get($icons, gadget);
+          width: map-get($gadget, width);
+          height: map-get($gadget, height);
+          background-image: url(map-get($gadget, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 26px;
+        width: 25px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_gadget.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 26px;
+          width: 25px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_gadget.svg');
+        }
+      }
+    }
+  }
+  &__furniture {
+    &:before {
+      $furniture: map-get($icons, furniture);
+      background-image: url(map-get($furniture, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $furniture: map-get($icons, furniture);
+        width: map-get($furniture, width);
+        height: map-get($furniture, height);
+        background-image: url(map-get($furniture, svgPath));
+      }
+      &:hover {
+        &:before {
+          $gadget: map-get($icons, gadget);
+          width: map-get($gadget, width);
+          height: map-get($gadget, height);
+          background-image: url(map-get($gadget, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px 25px;
+        width: 26px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_furniture.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px 25px;
+          width: 26px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_furniture.svg');
+        }
+      }
+    }
+
+  }
+  &__fashion_wanita {
+    &:before {
+      $fashion_wanita: map-get($icons, fashion_wanita);
+      background-image: url(map-get($fashion_wanita, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $fashion_wanita: map-get($icons, fashion_wanita);
+        width: map-get($fashion_wanita, width);
+        height: map-get($fashion_wanita, height);
+        background-image: url(map-get($fashion_wanita, svgPath));
+      }
+      &:hover {
+        &:before {
+          $fashion_wanita: map-get($icons, fashion_wanita);
+          width: map-get($fashion_wanita, width);
+          height: map-get($fashion_wanita, height);
+          background-image: url(map-get($fashion_wanita, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 27px;
+        width: 25px;
+        height: 27px;
+        background-image: url('./icons/special40/ic_fashion-wanita.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 27px;
+          width: 25px;
+          height: 27px;
+          background-image: url('./icons/special-active40/ic_fashion-wanita.svg');
+        }
+      }
+    }
+  }
+  &__fashion_pria {
+    &:before {
+      $fashion_pria: map-get($icons, fashion_pria);
+      background-image: url(map-get($fashion_pria, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $fashion_pria: map-get($icons, fashion_pria);
+        width: map-get($fashion_pria, width);
+        height: map-get($fashion_pria, height);
+        background-image: url(map-get($fashion_pria, svgPath));
+      }
+      &:hover {
+        &:before {
+          $fashion_pria: map-get($icons, fashion_pria);
+          width: map-get($fashion_pria, width);
+          height: map-get($fashion_pria, height);
+          background-image: url(map-get($fashion_pria, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 26px 25px;
+        width: 26px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_fashion-pria.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 26px 25px;
+          width: 26px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_fashion-pria.svg');
+        }
+      }
+    }
+  }
+  &__fashion_muslim {
+    &:before {
+      $fashion_muslim: map-get($icons, fashion_muslim);
+      background-image: url(map-get($fashion_muslim, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $fashion_muslim: map-get($icons, fashion_muslim);
+        width: map-get($fashion_muslim, width);
+        height: map-get($fashion_muslim, height);
+        background-image: url(map-get($fashion_muslim, svgPath));
+      }
+      &:hover {
+        &:before {
+          $fashion_muslim: map-get($icons, fashion_muslim);
+          width: map-get($fashion_muslim, width);
+          height: map-get($fashion_muslim, height);
+          background-image: url(map-get($fashion_muslim, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 27px;
+        width: 25px;
+        height: 27px;
+        background-image: url('./icons/special40/ic_fashion-muslim.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 27px;
+          width: 25px;
+          height: 27px;
+          background-image: url('./icons/special-active40/ic_fashion-muslim.svg');
+        }
+      }
+    }
+  }
+  &__f_n_b {
+    &:before {
+      $f_n_b: map-get($icons, f_n_b);
+      background-image: url(map-get($f_n_b, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $f_n_b: map-get($icons, f_n_b);
+        width: map-get($f_n_b, width);
+        height: map-get($f_n_b, height);
+        background-image: url(map-get($f_n_b, svgPath));
+      }
+      &:hover {
+        &:before {
+          &:before {
+            $f_n_b: map-get($icons, f_n_b);
+            width: map-get($f_n_b, width);
+            height: map-get($f_n_b, height);
+            background-image: url(map-get($f_n_b, svgPathActive));
+          }
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_f&b.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px;
+          width: 25px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_f&b.svg');
+        }
+      }
+    }
+  }
+  &__elektronik {
+    &:before {
+      $elektronik: map-get($icons, elektronik);
+      background-image: url(map-get($elektronik, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $elektronik: map-get($icons, elektronik);
+        width: map-get($elektronik, width);
+        height: map-get($elektronik, height);
+        background-image: url(map-get($elektronik, svgPath));
+      }
+      &:hover {
+        &:before {
+          $elektronik: map-get($icons, elektronik);
+          width: map-get($elektronik, width);
+          height: map-get($elektronik, height);
+          background-image: url(map-get($elektronik, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+        background-image: url('./icons/special40/ic_elektronik.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px;
+          width: 25px;
+          height: 25px;
+          background-image: url('./icons/special-active40/ic_elektronik.svg');
+        }
+      }
+    }
+  }
+  &__dekorasi {
+    &:before {
+      $dekorasi: map-get($icons, dekorasi);
+      background-image: url(map-get($dekorasi, svgPath));
+    }
+    &.i--medium {
+      &:before {
+        $dekorasi: map-get($icons, dekorasi);
+        width: map-get($dekorasi, width);
+        height: map-get($dekorasi, height);
+        background-image: url(map-get($dekorasi, svgPath));
+      }
+      &:hover {
+        &:before {
+          $dekorasi: map-get($icons, dekorasi);
+          width: map-get($dekorasi, width);
+          height: map-get($dekorasi, height);
+          background-image: url(map-get($dekorasi, svgPathActive));
+        }
+      }
+    }
+    &.i--large {
+      &:before {
+        background-size: 25px 26px;
+        width: 25px;
+        height: 26px;
+        background-image: url('./icons/special40/ic_dekorasi.svg');
+      }
+      &:hover {
+        &:before {
+          background-size: 25px 26px;
+          width: 25px;
+          height: 26px;
+          background-image: url('./icons/special-active40/ic_dekorasi.svg');
+        }
+      }
+    }
+  }
+}
+
+
+$icons: (
+  checkmark: a,
+  plus: b,
+  minus: c
+);
+
+/* For each key in the map, created an own class */
+@each $name, $value in $icons {
+  .icon--#{$name} {
+    content: $value;
+  }
+}
+.add-document {
+  path {
+  }
+}
+.arrow-down {
+  path {
+  }
+}

@@ -1,0 +1,28 @@
+import { Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Pagination } from '../../../Components/Molecules';
+
+# Pagination
+
+`import { Pagination } from "@elevenia/master-ui/Components/Molecules";`
+
+Shown page can be customized by specify `innerRange` and `outerRange`. `initialPage` props specify the active page.
+
+## Stories
+
+### Short Pagination
+
+<Preview>
+  <Story id="molecules-pagination--short"/>
+</Preview>
+
+### Long Pagination
+
+There is `...` symbol when the `total` are bigger than shown pages. 
+
+<Preview>
+  <Story id="molecules-pagination--long"/>
+</Preview>
+
+## Component Props
+
+<Props of={Pagination}/>

@@ -1,0 +1,159 @@
+.rc-slider {
+    position: relative;
+    height: 12px;
+    padding: 2px 0;
+    width: 100%;
+    border-radius: $border-radius;
+    box-sizing: border-box;
+    .rc-slider * {
+        box-sizing: border-box;
+    }
+    &-rail{
+        position: absolute;
+        width: 100%;
+        background-color: $black-30;
+        height: 8px;
+        border-radius: $border-radius;
+    }
+    &-track{
+        position: absolute;
+        left: 0;
+        height: 8px;
+        border-radius: $border-radius;
+        background-color: $orange-30;
+    }
+    &-handle{
+        position: absolute;
+        margin-left: -7px;
+        margin-top: -12px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        cursor: -webkit-grab;
+        cursor: grab;
+        border-radius: 50%;
+        box-shadow: $shadow-hover;
+        border: 1px solid $black-20;
+        background-color: $white;
+        touch-action: pan-x;
+        &:focus{
+            box-shadow: $shadow-default-action;
+            outline: none;
+        }
+        &:hover{
+            box-shadow: $shadow-hover;
+        }
+        &:active{
+            box-shadow: $shadow-hover;
+            cursor: -webkit-grabbing;
+            cursor: grabbing;
+        }
+        &-click-focused{
+            &:focus{
+                box-shadow: $shadow-hover;
+            }
+        }
+    }
+    &-step{
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background: transparent;
+    }
+    &-disabled{
+        background-color: #e9e9e9;
+        .rc-slider-track{
+            background-color: #cccccc;
+        }
+        .rc-slider-handle, .rc-slider-dot {
+            border-color: #cccccc;
+            box-shadow: none;
+            background-color: #fff;
+            cursor: not-allowed;
+        }
+        .rc-slider-mark-text, .rc-slider-dot {
+            cursor: not-allowed !important;
+        }
+    }
+    &.small{
+        width: 210px;
+        .rc-slider-rail{
+            height: 4px;
+        }
+        .rc-slider-track{
+            height: 4px;
+        }
+        .rc-slider-handle{
+            margin-left: -7px;
+            margin-top: -6px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+    &.medium{
+        width: 320px;
+    }
+    &.large{
+        width: 600px;
+    }
+  }
+
+    .slider-label{
+        display: flex;
+        justify-content: flex-end;
+      &.small{
+        width: 210px;
+        margin-bottom: 16px;
+        span{
+            color: $black-50;
+            font-size: 12px;
+        }
+      }
+      &.medium{
+        width: 320px;
+        margin-bottom: 32px;
+        span{
+            color: $black-50;
+            font-size: 14px;
+        }
+     }
+     &.large{
+        width: 600px;
+        margin-bottom: 32px;
+        span{
+            color: $black-50;
+            font-size: 14px;
+        }
+     }  
+  }
+
+  .range-label{
+    display: flex;
+    justify-content: space-between;
+    &.small{
+      width: 210px;
+      margin-bottom: 16px;
+      span{
+          color: $black-50;
+          font-size: 12px;
+      }
+    }
+    &.medium{
+      width: 320px;
+      margin-bottom: 32px;
+      span{
+          color: $black-50;
+          font-size: 14px;
+      }
+   }
+   &.large{
+      width: 600px;
+      margin-bottom: 32px;
+      span{
+          color: $black-50;
+          font-size: 14px;
+      }
+   }
+    
+}
+  

@@ -1,0 +1,328 @@
+.card,
+.keyboard-shortcuts,
+.leaderboard__topfive {
+	display: block;
+	position: relative;
+	margin-bottom: .75rem;
+	border-radius: 2px;
+	background-color: white;
+	border: 1px solid #dbdbdb;
+	color: #5f5f5f;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1);
+	-webkit-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+.card.active,
+.active.keyboard-shortcuts,
+.active.leaderboard__topfive {
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1), inset 0 0 2.5rem rgba(0, 0, 0, 0.05), inset 0 0 1px #00a7cf;
+	border-color: #0096ba
+}
+
+.card.active .card-footer,
+.active.keyboard-shortcuts .card-footer,
+.active.leaderboard__topfive .card-footer,
+.card.active .card-header,
+.active.keyboard-shortcuts .card-header,
+.active.leaderboard__topfive .card-header {
+	background: #00a7cf;
+	color: white
+}
+
+.card--no-shadow {
+	border: none;
+	box-shadow: none
+}
+
+.card--dark {
+	background-color: #444;
+	border: 1px solid #5f5f5f;
+	color: #acacac;
+	box-shadow: 0 0 3px 0 rgba(214, 155, 155, 0.65)
+}
+
+.card--dark .card__hero {
+	color: white
+}
+
+.card--xl {
+	height: 30rem
+}
+
+.card--lg {
+	height: 24rem
+}
+
+.card--md,
+.card--tile {
+	height: 18rem
+}
+
+.card--sm {
+	height: 12rem
+}
+
+.card--xs {
+	height: 8rem
+}
+
+.card--no-height {
+	height: auto
+}
+
+.card--underlined {
+	border-bottom: .125rem solid #00a7cf
+}
+
+.card--underlined-secondary {
+	border-bottom: .125rem solid #ffb819
+}
+
+.card--no-bg {
+	background: none;
+	box-shadow: 0 0 1.5rem 0px rgba(0, 0, 0, 0.1)
+}
+
+.card--white {
+	background: white
+}
+
+.card--tile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center
+}
+
+.card--tile__block {
+	display: block
+}
+
+.card--tile__icon {
+	height: 4rem;
+	font-size: 4rem;
+	line-height: 4rem;
+	margin-bottom: .5rem
+}
+
+.card--tile__text {
+	height: 6rem;
+	overflow: visible
+}
+
+.card__footer,
+.card__header {
+	padding: .5rem;
+	font-size: 1rem;
+	background-color: #00a7cf;
+	color: white;
+	border: none;
+	-webkit-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1);
+	-webkit-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+.card__footer {
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #008eb0;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px
+}
+
+.card__header {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #008eb0;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px
+}
+
+.card__block {
+	padding: .5rem;
+	height: 100%;
+	border-color: inherit
+}
+
+.card__block--divide-top {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: inherit
+}
+
+.card__block--divide-bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: inherit
+}
+
+.card__block--abs {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%
+}
+
+.card__title {
+	display: block;
+	cursor: pointer;
+	margin: 0
+}
+
+.card__link:hover {
+	text-decoration: underline
+}
+
+.card__text {
+	color: #949494;
+	margin-bottom: 1rem
+}
+
+.card__text:last-child {
+	margin-bottom: 0
+}
+
+.card__control {
+	z-index: 100
+}
+
+.card__control>* {
+	display: block
+}
+
+.card__chart {
+	height: 100%;
+	width: 100%;
+	opacity: 0.4;
+	-webkit-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+.card__chart--abs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 2rem 1rem 1rem 1rem
+}
+
+.card__chart--no-fade {
+	opacity: 1
+}
+
+.card__trend {
+	display: inline-block
+}
+
+.card__trend:before {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'FontAwesome';
+	margin-right: .25rem;
+	font-size: .75rem;
+	position: relative;
+	top: -2px
+}
+
+.card__trend--up {
+	color: #00c4b4
+}
+
+.card__trend--up:before {
+	content: '\f106'
+}
+
+.card__trend--same {
+	color: #ffb819
+}
+
+.card__trend--same:before {
+	content: '\2014'
+}
+
+.card__trend--down {
+	color: #ff5a34
+}
+
+.card__trend--down:before {
+	content: '\f107'
+}
+
+.card__trend--chart-trend {
+	position: absolute;
+	bottom: .5rem;
+	right: .5rem
+}
+
+.card__img-container {
+	max-height: 8rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.card__img-container--xs {
+	max-height: 4rem
+}
+
+.card__img-container--sm {
+	max-height: 6rem
+}
+
+.card__img-container--md {
+	max-height: 8rem
+}
+
+.card__img-container--lg {
+	max-height: 10rem
+}
+
+.card__img-container--xl {
+	max-height: 12rem
+}
+
+.card__img-container--top {
+	border-radius: 2px 2px 0 0
+}
+
+.card__img-container--bottom {
+	border-radius: 0 0 2px 2px
+}
+
+.card__img-helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle
+}
+
+.card__img,
+.conversation__img {
+	vertical-align: middle;
+	width: 100%;
+	height: auto
+}

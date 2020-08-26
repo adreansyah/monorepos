@@ -1,0 +1,78 @@
+import { Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Tabs } from "../../../Components/Molecules";
+
+# Tabs
+
+`import { Tabs } from "@elevenia/master-ui/Components/Molecules";`
+
+`Tabs` component navigate between views. Line under `Tabs` header indicates which view is currently active.
+
+<Preview>
+  <Story id="molecules-tabs--0-tabs" />
+</Preview>
+
+## Stories
+
+### Long Tabs
+Long Tabs variant makes tabs scrollable if tabs total width exceed container or device width.
+`longTabs` props also required to activate this variant.
+
+<Preview>
+  <Story id="molecules-tabs-long-tabs--0-long-tabs" />
+</Preview>
+
+## Component Props
+
+### underlineSize
+`underlineSize` props set the thickness of line under tab.
+
+<Preview>
+  <Story id="molecules-tabs--underline-size" />
+</Preview>
+
+### underlineColor
+`underlineColor` props set the color of line under tab.
+The value can be a color hex or [this color pallete](/?path=/docs/utils-color--list).
+
+<Preview>
+  <Story id="molecules-tabs--underline-color" />
+</Preview>
+
+### dots
+`dots` props replaces line under tabs with 3 dots.
+
+<Preview>
+  <Story id="molecules-tabs--dots" />
+</Preview>
+
+### responsive
+`responsive` props makes overall tabs width stretches to container or device width.
+
+<Preview>
+  <Story id="molecules-tabs--responsive" />
+</Preview>
+
+### tabsMargin
+`tabsMargin` props gives margin space between tabs.
+
+<Preview>
+  <Story id="molecules-tabs-long-tabs--tabs-margin" />
+</Preview>
+
+### tabsPadding
+`tabsPadding` props gives padding space between inside a tab.
+
+<Preview>
+  <Story id="molecules-tabs-long-tabs--tabs-padding" />
+</Preview>
+
+### noGutter
+`noGutter` props combines with `tabsPadding` props will nullify left padding of first tab and right padding of last tab.
+
+<Preview>
+  <Story id="molecules-tabs-long-tabs--no-gutter" />
+</Preview>
+
+## Component Props
+
+<Props of={Tabs}/>

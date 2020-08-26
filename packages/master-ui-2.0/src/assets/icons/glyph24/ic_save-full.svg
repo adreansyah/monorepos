@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_save-full</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_save-full" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M17.14,3 L6.86,3 C5.74705849,2.99966892 4.83714487,3.88738952 4.81,5 L4.81,19.86 C4.80307999,20.2248895 4.98261745,20.5681417 5.28627842,20.7705824 C5.5899394,20.973023 5.9758405,21.0067298 6.31,20.86 L11.53,18.63 C11.8298101,18.4998114 12.1701899,18.4998114 12.47,18.63 L17.69,20.87 C18.0243138,21.0111238 18.4071538,20.9749212 18.7090879,20.7736318 C19.011022,20.5723424 19.1916859,20.2328757 19.19,19.87 L19.19,5.06 C19.1900134,3.92618724 18.2737994,3.00550395 17.14,3 L17.14,3 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+.navbutton {
+    &-container {
+        top: 0;
+        z-index: 99;
+
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        max-width: 32px;
+
+        cursor: pointer;
+    }
+    &--right {
+        right: 0px;
+        .navbutton__button {
+            right: -15px;
+        }
+    }
+    &--left {
+        left: 0px;
+        .navbutton__button {
+            left: -15px;
+        }
+    }
+    &__button {
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        display: flex;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        border-radius: $border-radius;
+        margin-right: $margin-0;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $white;
+        box-shadow: $shadow-hover;
+
+        &:hover {
+            background-color: $black-10;
+        }
+        &:hover:active {
+            box-shadow: $shadow-default-action;
+        }
+    }
+
+    &--disabled, &--disabled .navbutton__button{
+        display: none;      
+    }
+}

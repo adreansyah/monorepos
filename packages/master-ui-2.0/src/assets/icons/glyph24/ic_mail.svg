@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M6,4 L18,4 C20.209139,4 22,5.790861 22,8 L22,16 C22,18.209139 20.209139,20 18,20 L6,20 C3.790861,20 2,18.209139 2,16 L2,8 C2,5.790861 3.790861,4 6,4 Z M18.3492086,6.2407434 L12,11.6829222 L5.65079137,6.2407434 C5.23146553,5.88132125 4.60016555,5.92988278 4.2407434,6.34920863 C3.88132125,6.76853447 3.92988278,7.39983445 4.34920863,7.7592566 L11.3492086,13.7592566 C11.7236984,14.0802478 12.2763016,14.0802478 12.6507914,13.7592566 L19.6507914,7.7592566 C20.0701172,7.39983445 20.1186788,6.76853447 19.7592566,6.34920863 C19.3998345,5.92988278 18.7685345,5.88132125 18.3492086,6.2407434 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

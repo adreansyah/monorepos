@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_save-outline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_save-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M17,3 L7,3 C5.8954305,3 5,3.8954305 5,5 L5,19 C5.00109386,19.4431359 5.22446938,19.8561554 5.59472239,20.099637 C5.96497539,20.3431186 6.43269704,20.3845706 6.84,20.21 L12,18 L17.16,20.21 C17.567303,20.3845706 18.0350246,20.3431186 18.4052776,20.099637 C18.7755306,19.8561554 18.9989061,19.4431359 19,19 L19,5 C19,3.8954305 18.1045695,3 17,3 Z M17,18 L12,15.82 L7,18 L7,5 L17,5 L17,18 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

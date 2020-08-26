@@ -1,0 +1,34 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { ButtonGroup } from "../../../Components/Atom";
+
+# Button Group
+```import { ButtonGroup } from "@elevenia/master-ui/Components/Atom";```
+
+ButtonGroup component based on `div` element.<br />
+The main function is to wrap multiple Buttons or ButtonLinks and put spaces between them.<br />
+Default space value: **8** (in px)
+
+<Preview>
+  <Story id="atom-button-group--basic" />
+</Preview>
+
+## Utils Props
+The props of **Utils** can be applied:
+[Spacing](/?path=/docs/utils-spacing--preview)
+
+## Component props
+<Props of={ButtonGroup} />
+
+### space
+`space` prop gives space (in px) between buttons with its value.
+
+<Preview>
+  <Story id="atom-button-group--space" />
+</Preview>
+
+### responsive
+`responsive` prop will give **flex** property to the wrapper, so it'll take the wrapper width.
+
+<Preview>
+  <Story id="atom-button-group--responsive" />
+</Preview>

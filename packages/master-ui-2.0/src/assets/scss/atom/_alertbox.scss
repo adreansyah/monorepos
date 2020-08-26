@@ -1,0 +1,32 @@
+.alertbox {
+    display: inline-flex;
+    padding: $padding-4;
+    border-radius: $border-radius;
+    border: 1px solid $black-30;
+    justify-content: left;
+    align-items: center;
+    font-size: $font-size-h3;
+
+    &--fluid {
+        display: flex;
+    }
+}
+
+.alertbox {
+    
+    &--success {
+        border-color: $green-30;
+        background-color: #EBFFD0;
+        color: $green-30;
+    }
+    &--warning {
+        border-color: $orange-30;
+        background-color: #FFFEC5;
+        color: $orange-20;
+    }
+    &--error {
+        border-color: $red-30;
+        background-color: #FFF3F4;
+        color: $red-30;
+    }
+}

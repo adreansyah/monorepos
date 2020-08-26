@@ -1,0 +1,22 @@
+.btn-dropdown-wrapper {
+  display: table;
+  .active {
+    border: 1px solid $black-20!important;
+    background-color: $black-20;
+  }
+  .box {
+    display: table!important;
+    min-width: 160px;
+    width: auto;
+    padding: $padding-3 $padding-4;
+    margin-top: $margin-2;
+    &--small {
+      min-width: 90px;
+      width: auto;
+    }
+    &--large {
+      min-width: 320px;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+import { Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Footer} from '../../Components/Organisms/Footer';
+
+# Footer
+
+`import { Footer, FooterLeft, FooterRight, FooterBody } from "@elevenia/master-ui/Components/Organisms/Mobile/Footer";`
+
+
+`Footer` is a base for Footer in mobile. <br/>
+Consists of `FooterLeft` for container left side, `FooterRight` for container right side, `FooterBody` for container center side component in Footer.<br/>
+
+## Stories
+<br/>
+
+### Basic
+
+`FooterLeft` as container of logo and text and  `FooterLeft` as container of [ButtonGroup](?path=/docs/atom-button-group--default) with two [Button](/?path=/docs/atom-button--basic).
+
+<Preview>
+  <Story id="organisms-footer--basic"/>
+</Preview>
+
+
+## Props
+<Props of={Footer}/>
+

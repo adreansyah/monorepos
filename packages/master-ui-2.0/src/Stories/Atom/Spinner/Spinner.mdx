@@ -1,0 +1,33 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Spinner } from "../../../Components/Atom";
+
+# Spinner
+```import { Spinner } from "@elevenia/master-ui/Components/Atom";```
+
+Spinner component is a circular animation that tells user when something is on progress. As example: page loading animation.
+
+<Story id="atom-spinner--default" />
+
+
+## Utils Props
+
+There's no specific utility props for this component
+
+## Component Props
+<Props of={Spinner} />
+
+### color
+
+`color` prop adjusts the color of spinner component.<br />
+
+<Preview>
+  <Story id="atom-spinner--color" />
+</Preview>
+
+### speed
+
+`speed` prop tells how long the the spinner to take one revolution (in second).<br />
+
+<Preview>
+  <Story id="atom-spinner--speed" />
+</Preview>

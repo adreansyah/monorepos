@@ -1,0 +1,171 @@
+.btn {
+	position: relative;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 12px 16px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	border-radius: $border-radius;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: inherit;
+	text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+	transition: all 0.3s;
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:link,
+	&:visited,
+	&:focus {
+		text-decoration: none;
+	}
+
+	&[type='button'],
+	&[type='reset'],
+	&[type='submit'] {
+		-webkit-appearance: none;
+  }
+  &--small {
+		padding: 8px;
+    font-size: 10px;
+  }
+  &--large {
+		padding: 16px 24px;
+    font-size: 16px;
+  }
+	&__floating {
+		padding: 16px;
+		border: 1px solid $black-30;
+		border-radius: 50%;
+		-webkit-box-shadow: $shadow-default;
+            box-shadow: $shadow-default;
+			&:hover {
+				-webkit-box-shadow: $shadow-hover;
+	          box-shadow: $shadow-hover;
+			}
+			&:active,&:focus {
+				-webkit-box-shadow: $shadow-default-action;
+						box-shadow: $shadow-default-action;
+			}
+			&--txt {
+				padding: 12px 16px;
+				border: 1px solid $black-30;
+				border-radius: 20px;
+				-webkit-box-shadow: $shadow-default;
+		            box-shadow: $shadow-default;
+				&:hover {
+					-webkit-box-shadow: $shadow-hover;
+							box-shadow: $shadow-hover;
+				}
+				&:active,&:focus {
+					-webkit-box-shadow: $shadow-default-action;
+							box-shadow: $shadow-default-action;
+				}
+			}
+			&--icon {
+				padding: 8px 16px;
+				border: 1px solid $black-30;
+				border-radius: 20px;
+				-webkit-box-shadow: $shadow-default;
+		            box-shadow: $shadow-default;
+				&:hover {
+					-webkit-box-shadow: $shadow-hover;
+							box-shadow: $shadow-hover;
+				}
+				&:active,&:focus {
+					-webkit-box-shadow: $shadow-default-action;
+							box-shadow: $shadow-default-action;
+				}
+			}
+	}
+}
+
+.btn + .btn {
+  margin-left: 8px;
+}
+
+
+.btn,.link {
+	&.u-bg-primary {
+		&:hover{
+			background-color: $orange-20;
+		}
+		&:active,&:focus {
+			background-color: $orange-50;
+		}
+	}
+	&.u-bg-secondary-green {
+		&:hover {
+			background-color: $green-20;
+		}
+		&:active,&:focus {
+			background-color: $green-50;
+		}
+	}
+	&.u-tx-dark {
+		&:hover {
+			color: $black-40;
+		}
+		&:active,&:focus {
+			color: $black-70;
+			background-color: $black-20;
+		}
+	}
+	&.u-tx-primary {
+		&:hover {
+			color: $orange-20;
+		}
+		&:active,&:focus {
+			color: $orange-40;
+		}
+	}
+}
+
+button[class*='u-bg-'][disabled] {
+	color: $white;
+	background-color: $black-30;
+	cursor: not-allowed;
+	&:hover,&:active {
+		color: $white;
+		background-color: $black-30;
+	}
+}
+
+button.u-tx-primary[disabled] {
+	color: $black-30;
+	background-color: transparent;
+	cursor: not-allowed;
+	&:hover,&:active {
+		color: $black-30;
+		background-color: transparent;
+	}
+}
+
+.btn-select {
+	padding: 8px 16px;
+	border: 1px solid $black-30;
+	border-radius: 18px;
+	background-color: $black-10;
+	color: $black-50;
+	font-size: 12px;
+	&:hover {
+		background-color: $black-20;
+	}
+	&.active {
+		border-color: $green-30;
+		background-color: $green-30;
+		color: $white;
+	}
+}

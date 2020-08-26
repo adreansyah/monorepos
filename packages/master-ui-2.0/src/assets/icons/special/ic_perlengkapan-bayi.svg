@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>1556D341-9503-49DE-8A85-75D63D969508</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---36px" transform="translate(-147.000000, -126.000000)">
+            <g id="Icon/Special/36px/Default/ic_perlengkapan-bayi" transform="translate(141.000000, 119.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="19.8" cy="16.2" r="9"></circle>
+                    <path d="M10.8,17.865 L25.2,17.865 L25.2,19.476 C25.1950349,22.6387332 22.6297371,25.2000039 19.467,25.2 L13.707,25.2 C12.9360157,25.2 12.1966088,24.8937277 11.6514406,24.3485594 C11.1062723,23.8033912 10.8,23.0639843 10.8,22.293 L10.8,17.865 Z" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M18.135,10.8 L20.961,10.8 C23.3021351,10.8 25.2,12.6978649 25.2,15.039 L25.2,17.865 L18.135,17.865 L18.135,10.8 Z" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M7.2,14.4809671 L9.558,14.481 C9.88656852,14.4786016 10.202504,14.6074471 10.4356865,14.8389399 C10.6688691,15.0704327 10.8000088,15.3854227 10.8,15.714 L10.8,18" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <circle id="Oval" fill="#434755" fill-rule="nonzero" cx="14.877" cy="28.8" r="1.287"></circle>
+                    <circle id="Oval" fill="#434755" fill-rule="nonzero" cx="19.836" cy="28.8" r="1.287"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

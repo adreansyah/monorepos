@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>585D0246-628D-4F82-9904-250C439687E3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---40px" transform="translate(-552.000000, -466.000000)">
+            <g id="Icon/Special/40px/Active/ic_elektronik" transform="translate(545.000000, 458.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="22" cy="18" r="10"></circle>
+                    <rect id="Rectangle" stroke="#E65015" stroke-width="2" stroke-linecap="round" x="8" y="17.9" width="20" height="14.1" rx="4"></rect>
+                    <path d="M8,28 L28,28" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M13.68,12 L17.64,17.62" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M22.32,12 L18.36,17.62" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

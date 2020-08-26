@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M20,4 L4,4 C2.8954305,4 2,4.8954305 2,6 L2,18 C2,19.1045695 2.8954305,20 4,20 L20,20 C21.1045695,20 22,19.1045695 22,18 L22,6 C22,4.8954305 21.1045695,4 20,4 Z M19,18 L5,18 C4.44771525,18 4,17.5522847 4,17 L4,13 C4,12.4477153 4.44771525,12 5,12 L19,12 C19.5522847,12 20,12.4477153 20,13 L20,17 C20,17.5522847 19.5522847,18 19,18 Z M19,8 L5,8 C4.44771525,8 4,7.55228475 4,7 L4,7 C4,6.44771525 4.44771525,6 5,6 L19,6 C19.5522847,6 20,6.44771525 20,7 L20,7 C20,7.55228475 19.5522847,8 19,8 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

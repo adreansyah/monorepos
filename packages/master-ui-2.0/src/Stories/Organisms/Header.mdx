@@ -1,0 +1,25 @@
+import { Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Header} from '../../Components/Organisms';
+
+# Header
+
+`import { Header, HeaderLeft, HeaderRight, HeaderBody } from "@elevenia/master-ui/Components/Organisms";`
+
+
+`Header` is a base for header in mobile. <br/>
+Consists of `HeaderLeft` for container left side, `HeaderRight` for container right side, `HeaderBody` for container center side component in header.<br/>
+
+## Stories
+<br/>
+
+### Header Basic
+
+`HeaderLeft` as container of logo, `HeaderBody` as container of  [SearchBar](/?path=/docs/molecules-search-bar--basic) and `HeaderRight` as container of 2 [Icon](?path=/docs/atom-icon--glyph) right.
+
+<Preview>
+  <Story id="organisms-header--basic"/>
+</Preview>
+
+## Props
+<Props of={Header}/>
+

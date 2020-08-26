@@ -1,0 +1,93 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Textfield } from "../../../Components/Atom";
+
+# Textfield
+```import { Textfield } from "@elevenia/master-ui/Components/Atom";```
+
+Textfield component based on `input` element. It commonly use in any pages.
+
+<Preview>
+<Story id="atom-textfield--default-model" />
+</Preview>
+
+<br />
+
+## Stories
+### Line Model
+
+Line model is another variant or model of textfield component. To activate line model, add `model='line'` prop.
+
+<Preview>
+  <Story id="atom-textfield--line-model" />
+</Preview>
+
+## Utils Props
+
+There's no specific utility props for this component.
+
+## Component Props
+<Props of={Textfield} />
+
+
+## Input related props (inputProps)
+Every props that related to `input` element should be defined inside `inputProps` props.
+
+### functional props
+
+`onChange` prop is responsible to run function when any change happened to textfield.<br/>
+`data-validation` prop is required if it necessary for certain functions.
+<br />
+
+<Preview>
+  <Story id="atom-textfield--default-model" />
+</Preview>
+
+### placeholder
+
+`placeholder` prop works as same as placeholder attribute. It describes the expected value of an input field.
+<br />
+
+<Preview>
+  <Story id="atom-textfield--default-model" />
+</Preview>
+
+### readonly
+
+when `readonly` prop has `true` value, the component will be in readonly state.
+<br />
+
+<Preview>
+  <Story id="atom-textfield--readonly" />
+</Preview>
+
+
+
+## Component related props
+
+### status
+
+`status` prop gives border or line color changes according to the value.
+<br />
+
+<Preview>
+  <Story id="atom-textfield--status" />
+</Preview>
+
+### disabled
+
+when `disabled` prop has `true` value, the component will be disabled.
+<br />
+
+<Preview>
+  <Story id="atom-textfield--disabled" />
+</Preview>
+
+### Icon on Right and Icon on Left
+
+`right` and `left` prop define what stuff will be placed on respective prop
+<br />
+
+<Preview>
+  <Story id="atom-textfield--with-icon-on-right" />
+  <Story id="atom-textfield--with-icon-on-left" />
+</Preview>

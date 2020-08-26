@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_time" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 Z M16.6,14.49 C16.4241028,14.8114804 16.0864539,15.0110002 15.72,15.01 C15.5528222,15.0080497 15.3884276,14.966951 15.24,14.89 L12,13.11 C11.396228,12.8079672 11.0107255,12.1950181 11,11.52 L11,6.13 C11,5.57771525 11.4477153,5.13 12,5.13 C12.5522847,5.13 13,5.57771525 13,6.13 L13,11.4 L16.19,13.13 C16.4255921,13.2551081 16.6014349,13.4691576 16.6784295,13.7245543 C16.7554241,13.9799511 16.7271882,14.2555243 16.6,14.49 L16.6,14.49 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

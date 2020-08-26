@@ -1,0 +1,27 @@
+.link {
+    font-size: $font-size-base;
+    border: none;
+    &-orange {
+        color: $orange-30;
+        text-decoration: none;
+        &:hover { text-decoration: underline}
+    } 
+    &-green {
+        color: $green-30;
+        text-decoration: none;
+        &:hover { text-decoration: underline}
+    }
+    &-small {
+        font-size: 0.625rem
+    }
+    &-base {
+        font-size: 0.875rem
+    }
+    &-large {
+        font-size: 1rem
+    }
+    &.disabled{
+        color: #DCDEE3;
+        pointer-events: none;
+    }
+}

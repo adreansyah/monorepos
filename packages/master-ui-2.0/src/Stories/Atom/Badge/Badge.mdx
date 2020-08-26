@@ -1,0 +1,36 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Badge } from "../../../Components/Atom";
+
+# Badge
+```import { Badge } from "@elevenia/master-ui/Components/Atom";```
+
+Badges can be used as part of links or buttons to provide a counter.
+Change **bg** value to change the color of a badge.
+
+<Preview>
+  <Story id="atom-badge--basic" />
+</Preview>
+
+## Stories
+### Round Badge
+
+Customize **round** value to change the border radius of a badge. 
+You also can just add **round** without value to make a perfect pill badge.
+
+<Preview>
+  <Story id="atom-badge--round" />
+</Preview>
+
+### Custom Font Attribute
+
+Add any of the below mentioned attribute to change the font attribute of a badge.
+
+<Preview>
+  <Story id="atom-badge--font-attribute" />
+</Preview>
+
+## Props
+<Props of={Badge}/>
+
+
+

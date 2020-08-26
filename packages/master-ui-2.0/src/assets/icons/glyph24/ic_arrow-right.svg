@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_arrow-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_arrow-right">
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M20.66,11.2 L13.32,3.86 C13.1322334,3.67068735 12.8766375,3.56420168 12.61,3.56420168 C12.3433625,3.56420168 12.0877666,3.67068735 11.9,3.86 C11.5122764,4.25003745 11.5122764,4.87996255 11.9,5.27 L17.63,11 L4,11 C3.44771525,11 3,11.4477153 3,12 C3,12.5522847 3.44771525,13 4,13 L17.64,13 L11.9,18.74 C11.5122764,19.1300375 11.5122764,19.7599625 11.9,20.15 C12.0877666,20.3393127 12.3433625,20.4457983 12.61,20.4457983 C12.8766375,20.4457983 13.1322334,20.3393127 13.32,20.15 L20.66,12.81 C20.8755919,12.5976175 20.9969836,12.3076321 20.9969836,12.005 C20.9969836,11.7023679 20.8755919,11.4123825 20.66,11.2 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

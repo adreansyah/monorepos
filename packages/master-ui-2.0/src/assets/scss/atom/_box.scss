@@ -1,0 +1,23 @@
+.box{
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: $border-radius;
+    -webkit-box-shadow: $shadow-default;
+            box-shadow: $shadow-default;
+    &.action:hover{
+        -webkit-box-shadow: $shadow-hover;
+            box-shadow: $shadow-hover;
+    }
+    &.action:active{
+        -webkit-box-shadow: $shadow-default-action;
+            box-shadow: $shadow-default-action;
+    }
+    &.disable{
+        -webkit-box-shadow: $shadow-disabled;
+            box-shadow: $shadow-disabled;
+    }
+}

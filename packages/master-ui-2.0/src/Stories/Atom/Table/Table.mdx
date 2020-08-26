@@ -1,0 +1,34 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+
+# Table
+```import { Table } from "@elevenia/master-ui/Components/Atom";```
+
+## Basic Table
+<Preview>
+  <Story id="atom-table--basic" />
+</Preview>
+
+## Table Responsive
+
+If you need to custom css. props `responsive` provided preflix className. <br/>
+just set your preflix class like `responsive={'custom'}'` that will return className `table-responsive-custom` at container div.
+
+<Preview>
+  <Story id="atom-table--responsive" />
+</Preview>
+
+## Table Rounded
+
+You can define props `round` with value types `string` or `boolean`.<br/> 
+example: `round:'10px'` or just using `round` then you got `'4px'` as a default value 
+
+<Preview>
+  <Story id="atom-table--rounded-table" />
+</Preview>
+
+## Table without Shadow
+What you need is just remove the props `boxShadow`.
+
+<Preview>
+  <Story id="atom-table--without-shadow" />
+</Preview>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_more-horizontal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_more-horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M19.5,14.25 C18.2573593,14.25 17.25,13.2426407 17.25,12 C17.25,10.7573593 18.2573593,9.75 19.5,9.75 C20.7426407,9.75 21.75,10.7573593 21.75,12 C21.75,13.2426407 20.7426407,14.25 19.5,14.25 Z M12,14.25 C10.7573593,14.25 9.75,13.2426407 9.75,12 C9.75,10.7573593 10.7573593,9.75 12,9.75 C13.2426407,9.75 14.25,10.7573593 14.25,12 C14.25,13.2426407 13.2426407,14.25 12,14.25 Z M4.5,14.25 C3.25735931,14.25 2.25,13.2426407 2.25,12 C2.25,10.7573593 3.25735931,9.75 4.5,9.75 C5.74264069,9.75 6.75,10.7573593 6.75,12 C6.75,13.2426407 5.74264069,14.25 4.5,14.25 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "@elevenia/validations",
+  "version": "1.0.0",
+  "description": "validations",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "elevenia",
+  "license": "ISC"
+}

@@ -1,0 +1,78 @@
+.dropzone-wrap {
+  display: inline-block;
+  .dropzone {
+    width: 600px;
+    padding: 80px 0px;
+    border: 1px dashed $black-30;
+    border-radius: $border-radius;
+    background: $black-10;
+    text-align: center;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $black-20;
+    }
+    .inputfile {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+    .inputfile + label {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+    }
+    .inputfile + label img {
+      max-width: 56px;
+      width: 100%;
+    }
+    .inputfile + label p {
+      padding-top: 38px;
+    }
+    &--small {
+      width: 300px;
+      padding: 20px 0px;
+      .inputfile + label {
+        flex-direction: row;
+      }
+      .inputfile + label p {
+        padding: 0 0 0 $padding-2;
+      }
+    }
+    &--large {
+      width: 864px;
+    }
+    &--xlarge {
+      width: 960px;
+    }
+    &--default {
+      width: auto;
+      padding: 0;
+      border: none;
+      text-align: left;
+    }
+    &.multimedia {
+      padding: 68px 0;
+      .inputfile + label {
+        flex-direction: column;
+      }
+      .inputfile + label p {
+        padding-top: 38px;
+      }
+    }
+  }
+
+  .note {
+    color: $black-50;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 18px;
+    span {
+      display: block;
+    }
+  }
+
+}

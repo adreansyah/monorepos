@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>BB30D957-38A7-4C02-89CF-1BEE42EEA3F3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---40px" transform="translate(-312.000000, -127.000000)">
+            <g id="Icon/Special/40px/Default/ic_mokado" transform="translate(305.000000, 119.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="22" cy="18" r="10"></circle>
+                    <path d="M20.84,14.93 C20.48,16.88 16.95,20.37 16.38,20.37 C15.81,20.37 12.38,16.88 11.91,14.93 C11.44,12.98 12.75,11.65 14.42,12.1 C14.9702887,12.3563396 15.4792301,12.693387 15.93,13.1 C16.1816104,13.300494 16.5383896,13.300494 16.79,13.1 C17.2475241,12.6925547 17.763181,12.355524 18.32,12.1 C20.24,11.6 21.2,13 20.84,14.93 Z" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M23.2,15.49 L24.41,15.17 C25.4350734,14.8951733 26.5273455,15.0389769 27.446357,15.5697529 C28.3653685,16.1005289 29.0357788,16.9747644 29.31,18 L30.75,23.36 C31.0248267,24.3850734 30.8810231,25.4773455 30.3502471,26.396357 C29.8194711,27.3153685 28.9452356,27.9857788 27.92,28.26 L14.48,31.86 C13.4508298,32.1338173 12.3549564,31.98592 11.4351915,31.4490776 C10.5154265,30.9122352 9.84771461,30.0307745 9.58,29 L8.14,23.68 C7.86618275,22.6508298 8.01408005,21.5549564 8.55092242,20.6351915 C9.0877648,19.7154265 9.96922548,19.0477146 11,18.78" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M9.58,29.04 L30.75,23.35" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M22,20.61 L26.52,19.39" id="Path" stroke="#434755" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

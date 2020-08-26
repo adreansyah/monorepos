@@ -1,0 +1,26 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { AlertBox } from "../../../Components/Atom";
+
+# AlertBox
+```import { AlertBox } from "@elevenia/master-ui/Components/Atom";```
+
+AlertBox is available for any length of text, as well as an optional dismiss button. <br/>
+There are 3 styling types: **success**, **warning**, **danger**. For example type="success". <br/>
+To make AlerBox responsive, you can add props **responsive**.
+You also can customize the animation with: **fade**, **slide**, or **false**.
+
+<Preview>
+  <Story id="atom-alert-box--basic" />
+</Preview>
+
+## Stories
+### Dismissable
+
+To add a dismiss button, add props **toggle** with toggle function and add props **isOpen** to set the alert open or closed. <br/>
+You can see this in action with a live demo:
+<Preview>
+  <Story id="atom-alert-box--dismissable" />
+</Preview>
+
+## Props
+<Props of={AlertBox}/>

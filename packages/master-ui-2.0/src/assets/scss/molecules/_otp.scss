@@ -1,0 +1,44 @@
+.otp {
+    $self: &;
+    &-row {
+        margin-left: -6px;
+        margin-right: -6px;
+        justify-content: center;
+    }
+
+    &__field-container {
+        flex: 0 0 72px !important;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    &__field {
+        border-left-width: 0px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        font-size: $font-size-d2;
+        font-weight: $font-weight-medium;
+        text-align: center;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    &--error {
+        #{$self}__field {
+            border-color: $red-30;
+            color: $red-30;
+        }
+    }
+
+    &-mobile {
+        #{$self}-row {
+            margin-left: -4px;
+            margin-right: -4px;
+        }
+
+        #{$self}__field-container {
+            flex: 0 0 58px !important;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>AD0C04F2-3E5F-40BC-A3DF-6404E868BAA1</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Glyph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glyph---16px" transform="translate(-612.000000, -478.000000)">
+            <g id="Icon/Glyph/16px/ic_cancel" transform="translate(610.000000, 476.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M8.93333333,8 L13.6,3.33333333 C13.8497691,3.07493559 13.8497691,2.66506441 13.6,2.40666667 L13.6,2.40666667 C13.3425897,2.15071073 12.927707,2.14774728 12.6666667,2.4 L8,7.06666667 L3.33333333,2.4 C3.07493559,2.15023088 2.66506441,2.15023088 2.40666667,2.4 L2.40666667,2.4 C2.15071073,2.65741027 2.14774728,3.072293 2.4,3.33333333 L7.06666667,8 L2.4,12.6666667 C2.20093985,12.9320802 2.22733418,13.3034766 2.46192881,13.5380712 C2.69652345,13.7726658 3.0679198,13.7990602 3.33333333,13.6 L8,8.93333333 L12.6666667,13.6 C12.9320802,13.7990602 13.3034766,13.7726658 13.5380712,13.5380712 C13.7726658,13.3034766 13.7990602,12.9320802 13.6,12.6666667 L8.93333333,8 Z" id="Path" fill="#70727D" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

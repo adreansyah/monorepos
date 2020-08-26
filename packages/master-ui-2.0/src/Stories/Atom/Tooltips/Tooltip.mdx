@@ -1,0 +1,36 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Tooltip } from "../../../Components/Atom";
+
+# Tooltip
+```import { Tooltip, TooltipContent, TooltipTarget } from "@elevenia/master-ui/Components/Atom";```
+
+Tooltip has a sub component; `TooltipContent` and `TooltipTarget`. <br/> 
+As the name you can put some information inside `TooltipContent`, and put your component target inside `TooltipTarget`
+
+<Preview>
+  <Story id="atom-tooltip--basic"/>
+</Preview>
+
+## Component Props
+<Props of={Tooltip} />
+
+## Type
+Theres two type of Tooltips; click and hover
+
+<Preview>
+  <Story id="atom-tooltip--type"/>
+</Preview>
+
+## Color
+Tooltip provided two option color; dark and light
+
+<Preview>
+  <Story id="atom-tooltip--color"/>
+</Preview>
+
+## Placement
+you can adjust postioning tooltip content, check it out in component props for other option of placement
+
+<Preview>
+  <Story id="atom-tooltip--placement"/>
+</Preview>

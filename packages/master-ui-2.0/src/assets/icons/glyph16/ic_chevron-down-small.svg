@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>9DE61C32-7DC0-4D2E-9D4D-DB147E98C793</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Glyph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glyph---16px" transform="translate(-166.000000, -760.000000)">
+            <g id="Icon/Glyph/16px/ic_chevron-down-small" transform="translate(162.000000, 754.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M5.36568542,10.4979184 C5.05326599,10.8103378 4.54673401,10.8103378 4.23431458,10.4979184 C3.92189514,10.185499 3.92189514,9.678967 4.23431458,9.36654757 L7.30796892,6.29289322 C7.69849321,5.90236893 8.33165819,5.90236893 8.72218248,6.29289322 L11.7958368,9.36654757 C12.1082563,9.678967 12.1082563,10.185499 11.7958368,10.4979184 C11.4834174,10.8103378 10.9768854,10.8103378 10.664466,10.4979184 L8.0150757,7.84852814 L5.36568542,10.4979184 Z" id="Path" fill="#70727D" fill-rule="nonzero" transform="translate(8.015076, 8.366116) scale(1, -1) translate(-8.015076, -8.366116) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

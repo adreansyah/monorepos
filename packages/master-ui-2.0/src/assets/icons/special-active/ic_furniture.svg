@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>F56506E4-3448-4733-8213-DEA5B807EC7C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---36px" transform="translate(-147.000000, -466.000000)">
+            <g id="Icon/Special/36px/Active/ic_furniture" transform="translate(141.000000, 459.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="19.8" cy="16.2" r="9"></circle>
+                    <rect id="Rectangle" stroke="#E65015" stroke-width="2" stroke-linecap="round" x="7.209" y="14.778" width="21.591" height="10.422" rx="4"></rect>
+                    <path d="M9.963,28.701 L11.637,25.2" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M26.082,28.692 L24.408,25.2" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M10.8,19.989 L25.2,19.989" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M14.805,11.925 L21.213,11.925" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

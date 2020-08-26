@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Glyph/24px/ic_chevron-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Glyph/24px/ic_chevron-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Bound" x="0" y="0" width="24" height="24"></rect>
+            <path d="M7.6,18.73 L14.33,12 L7.6,5.27 C7.41068735,5.0822334 7.30420168,4.82663754 7.30420168,4.56 C7.30420168,4.29336246 7.41068735,4.0377666 7.6,3.85 L7.6,3.85 C7.98884351,3.46885712 8.61115649,3.46885712 9,3.85 L16.34,11.2 C16.5525097,11.4119944 16.6719399,11.69983 16.6719399,12 C16.6719399,12.30017 16.5525097,12.5880056 16.34,12.8 L9,20.15 C8.8122334,20.3393127 8.55663754,20.4457983 8.29,20.4457983 C8.02336246,20.4457983 7.7677666,20.3393127 7.58,20.15 L7.58,20.15 C7.39330715,19.9595798 7.29040444,19.702479 7.29416001,19.4358332 C7.29791559,19.1691875 7.40801832,18.9150867 7.6,18.73 Z" id="Icon" fill="#70727D" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

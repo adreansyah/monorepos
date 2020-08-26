@@ -1,0 +1,63 @@
+import { Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Switch } from "../../../Components/Atom";
+
+# Switch
+```import { switch } from "@elevenia/master-ui/Components/Atom";```
+
+Switch component has a function as same as a checkbox. It appears like a switch gives true or false value.
+
+<Story id="atom-switch--default" />
+
+<br />
+
+## Utils Props
+
+There's no specific utility props for this component.
+
+## Component Props
+<Props of={Switch} />
+
+### onChange (mandatory)
+
+`label` prop is the title or description of switch.
+<br />
+
+<Preview>
+  <Story id="atom-switch--label-on-left" />
+</Preview>
+
+### checked (mandatory)
+
+`label` prop is the title or description of switch.
+<br />
+
+<Preview>
+  <Story id="atom-switch--label-on-left" />
+</Preview>
+
+### label
+
+`label` prop is the title or description of switch.
+<br />
+
+<Preview>
+  <Story id="atom-switch--label-on-left" />
+</Preview>
+
+### labelPosition
+
+`labelPosition` prop defines label position either on the left or on the right of switch. Without `labelPosition` prop, label position will be on the left of switch.
+<br />
+
+<Preview>
+  <Story id="atom-switch--label-on-right" />
+</Preview>
+
+### labelInside
+
+`labelInside` prop is boolean. The true value will enable label inside the switch which tells its status (ON or OFF).
+<br />
+
+<Preview>
+  <Story id="atom-switch--label-inside" />
+</Preview>

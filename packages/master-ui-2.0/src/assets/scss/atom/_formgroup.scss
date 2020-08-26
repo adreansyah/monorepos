@@ -1,0 +1,27 @@
+.form-group {
+    display: block;
+
+    &--inline{
+        margin-top: $margin-6;
+    }
+
+    &__label {
+        margin-bottom: $margin-1;
+        line-height: 20px;
+    }
+
+    &__helptext {
+        color: $black-40;
+        font-size: $font-size-p2;
+        line-height: 16px;
+        margin-top: $margin-2;
+
+        &--success {
+            color: $green-30;
+        }
+
+        &--error {
+            color: $red-30;
+        }
+    }
+}

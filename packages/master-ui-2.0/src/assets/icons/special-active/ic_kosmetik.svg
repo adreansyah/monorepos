@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>01C4BBE3-BD54-4FAD-A23F-F92C3C50E4CD</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Kategori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Special---36px" transform="translate(-375.000000, -365.000000)">
+            <g id="Icon/Special/36px/Active/ic_kosmetik" transform="translate(369.000000, 359.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+                    <circle id="Oval" fill="#FED156" fill-rule="nonzero" cx="19.8" cy="16.2" r="9"></circle>
+                    <path d="M17.622,22.383 C13.8611122,23.723961 9.69396646,22.0166745 7.9550404,18.4224305 C6.21611433,14.8281865 7.46380544,10.5011554 10.8494387,8.38456829 C14.235072,6.26798115 18.6714654,7.04150858 21.141,10.179" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M12.951,25.821 L17.01,25.821" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M15.003,22.833 L14.976,25.821" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke="#E65015" stroke-width="2" stroke-linecap="round" x="19.809" y="18.639" width="5.985" height="10.161" rx="2.18"></rect>
+                    <path d="M22.284,16.488 L23.319,16.488 C24.0645844,16.488 24.669,17.0924156 24.669,17.838 L24.669,18.648 L20.93397,18.648 L20.934,17.847 C20.9316026,17.4874009 21.0727753,17.1417065 21.3262097,16.8865825 C21.5796441,16.6314585 21.9243929,16.487992 22.284,16.488 L22.284,16.488 Z" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M23.499,11.502 L22.374,11.925 C21.9137314,12.0905253 21.6050037,12.524898 21.6,13.014 L21.6,16.488 L23.931,16.488 L23.931,11.835 C23.9284358,11.7291638 23.8782392,11.6301388 23.7943912,11.565506 C23.7105433,11.5008732 23.6020024,11.477538 23.499,11.502 Z" id="Path" stroke="#E65015" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
